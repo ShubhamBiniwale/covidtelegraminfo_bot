@@ -34,7 +34,7 @@ def Maharashtra(update, context):
 						  
 def main():
     #import pdb;pdb.set_trace()
-    updater = Updater('1335688368:AAEs7K93-HYOa1TkqcgSd2uWiviBxSXRkQU',use_context=True)
+    updater = Updater('YOUR TELEGRAM TOKEN',use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('start', start))
     dp.add_handler(CommandHandler('India', India))
